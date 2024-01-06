@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cod.css">
+    <title>Cash on Delivery</title>
+</head>
+<body>
+
+<section id="cod" class="w-100 d-flex justify-content-center align-items-center p-2 ">
+    <img src="./img/2150797650-removebg-preview.png" alt="" data-aos="fade-down" data-aos-duration="1000">
+    <div class="w-50" data-aos="fade-down" data-aos-duration="1000">
+        <h1>COD</h1>
+        <p>Transaksi yang dilakukan antara penjual dan pembeli yang akan saling bertemu di tempat dan waktu yang sudah disepakati. Tujuan dari adanya COD adalah untuk memberikan rasa aman untuk pembeli/penjual dengan bertransaksi di rumah atau di tempat yang dikategorikan aman bagi kedua belah pihak.</p>
+        <button class="btn btn-primary border-0" style="background: var(--bg);" onclick="showCOD()">COD NOW</button>
+    </div>
+
+    <!-- COD Column -->
+    <div id="codColumn" class="cod-column">
+        <h1>Cash on Delivery</h1>
+        <p>Terima kasih telah memilih metode pembayaran Cash on Delivery (COD). Silakan tunggu kurir kami untuk melakukan transaksi di lokasi yang sudah disepakati.</p>
+        <button class="btn btn-primary border-0" style="background: var(--bg);" onclick="hideCOD()">Back</button>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="./js/cod.js"></script>
+
+</body>
+</html>
